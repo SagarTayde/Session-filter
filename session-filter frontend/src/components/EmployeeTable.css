@@ -1,0 +1,108 @@
+/* EmployeeTable.css */
+.employee-list-header {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6;
+  padding: 8px;
+  }
+  .main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .serchBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: fit-content;
+  }
+  .serchBox input{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  .attendeList{
+    border: 1px solid black;
+    min-width: 50vw;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  .searchResult{
+    width: fit-content;
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    padding: 5px 20px;
+    min-width: 160px;
+    border-radius: 5px;
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  .searchResult p:hover{
+    background-color: rgba(128, 128, 128, 0.329);
+  }
+  .searchResult p{
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  .table_container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 400px;
+  }
+  .select-all-checkbox {
+    margin-right: 10px;
+  }
+  
+  .employee-table {
+    width: 49%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .employee-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    border: 1px solid #dee2e6;
+  padding: 8px;
+  }
+  
+  .employee-checkbox {
+    margin: 0 auto;
+  }
+  .messageBox{
+    display: flex;
+    gap: 10px;
+    
+  }
+  .sendMail{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Optional: Set the width to fit the container */
+  background-color: #f0f0f0; /* Optional: Add styling */
+  padding: 10px; 
+
+  }
+  .cc_container{
+    display: flex;
+    gap: 10px;
+  }
