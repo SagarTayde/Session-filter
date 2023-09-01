@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Template</title>
+</head>
+<body>
+	<p>Hi ${username.get(0)},</p>
+    <h3>Following are the HR sessions you have attended and pending, please attend the pending sessions as soon as possibles</h3>
+    
+    <h2>Attended List:</h2>
+    <ul>
+        #foreach ($skill in $attendedList)
+            <li>$skill</li>
+        #end
+    </ul>
+    
+    <h2>Pending List:</h2>
+    <ul>
+        #foreach ($skill in $pendingList)
+            <li>$skill</li>
+        #end
+    </ul>
+    
+    <p>${msg.get(0)}</p>
+</body>
+</html>
+
+</body>
+</html>
